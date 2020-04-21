@@ -1,0 +1,26 @@
+{
+    "name": "@yeseh/prettier-config",
+    "version": "1.0.0",
+    "description": "Yeseh's prettier config",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Yeseh/prettier-config-yeseh.git"
+    },
+    "keywords": [
+        "prettier",
+        "prettierconfig"
+    ],
+    "author": "Yeseh",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Yeseh/prettier-config-yeseh/issues"
+    },
+    "homepage": "https://github.com/Yeseh/prettier-config-yeseh#readme",
+    "dependencies": {
+        "prettier": ">= 1.19.1"
+    }
+}
