@@ -1,0 +1,23 @@
+{
+    "name": "@yeseh/eslint-config",
+    "version": "1.0.0",
+    "description": "Eslint config",
+    "main": "index.js",
+    "keywords": [
+        "eslint",
+        "eslintconfig"
+    ],
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Yeseh",
+    "license": "ISC",
+    "dependencies": {
+        "@typescript-eslint/parser": "^2.21.0",
+        "@typescript-eslint/eslint-plugin": "^2.21.0"
+    },
+    "peerDependencies": {
+        "eslint": ">= 3",
+        "prettier-eslint": "^9.0.1"
+    }
+}
