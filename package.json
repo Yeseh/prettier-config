@@ -8,7 +8,8 @@
     "eslintconfig"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "vsCred": "vsts-npm-auth -config .npmrc"
   },
   "author": "Yeseh",
   "license": "ISC",
