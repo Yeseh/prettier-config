@@ -1,6 +1,6 @@
 {
   "name": "@yeseh/eslint-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Yeseh's eslint config",
   "main": "index.js",
   "keywords": [

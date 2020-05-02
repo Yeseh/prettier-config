@@ -374,7 +374,7 @@ module.exports = {
     // Rule overrides
     "prettier/prettier": "error",
     "@typescript-eslint/camelcase": "off",
-    "@typescript-eslint/interface-name-prefix": { prefixWithI: "always" },
+    "@typescript-eslint/interface-name-prefix": "off",
     // '@typescript-eslint/no-explicit-any': 'warn',
   },
 };
