@@ -255,7 +255,6 @@ module.exports = {
     // 'max-params': 'off',
     // 'max-statements': 'off',
     // 'max-statements-per-line': 'off',
-    // TODO(philipwalton): add a rule to enforce the operator appearing
     // at the end of the line.
     // 'multiline-ternary': 'off',
     "new-cap": "error",
@@ -271,7 +270,7 @@ module.exports = {
     // 'no-multi-assign': 'off',
     "no-multiple-empty-lines": ["error", { max: 2 }],
     // 'no-negated-condition': 'off',
-    // 'no-nested-ternary': 'off',
+    'no-nested-ternary': 'off',
     "no-new-object": "error",
     // 'no-plusplus': 'off',
     // 'no-restricted-syntax': 'off',
@@ -279,7 +278,7 @@ module.exports = {
     // 'no-ternary': 'off',
     "no-trailing-spaces": "error",
     // 'no-underscore-dangle': 'off',
-    // 'no-unneeded-ternary': 'off',
+    'no-unneeded-ternary': 'off',
     // 'no-whitespace-before-property': 'off',
     // 'nonblock-statement-body-position': 'off',
     // 'object-curly-newline': 'off',
@@ -299,7 +298,7 @@ module.exports = {
     "padded-blocks": ["error", "never"],
     // 'padding-line-between-statements': 'off',
     "quote-props": ["error", "consistent"],
-    quotes: ["error", "single", { allowTemplateLiterals: true }],
+    quotes: ["error", "double", { allowTemplateLiterals: true }],
     // 'require-jsdoc': [
     //     'error',
     //     {
