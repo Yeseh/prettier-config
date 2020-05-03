@@ -371,7 +371,7 @@ module.exports = {
     "yield-star-spacing": ["error", "after"],
 
     // Rule overrides
-    "prettier/prettier": "error",
+    "prettier/prettier": "off",
     "@typescript-eslint/camelcase": "off",
     "@typescript-eslint/interface-name-prefix": "off",
     // '@typescript-eslint/no-explicit-any': 'warn',
