@@ -239,7 +239,7 @@ module.exports = {
     // 'lines-around-comment': 'off',
     // 'max-depth': 'off',
     "max-len": [
-      "error",
+      "off",
       {
         code: 80,
         tabWidth: 2,
