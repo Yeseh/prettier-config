@@ -282,7 +282,7 @@ module.exports = {
     // 'no-whitespace-before-property': 'off',
     // 'nonblock-statement-body-position': 'off',
     // 'object-curly-newline': 'off',
-    "object-curly-spacing": "error",
+    "object-curly-spacing": "always",
     // 'object-property-newline': 'off',
     "one-var": [
       "error",
@@ -374,6 +374,7 @@ module.exports = {
     "prettier/prettier": "off",
     "@typescript-eslint/camelcase": "off",
     "@typescript-eslint/interface-name-prefix": "off",
+    "@typescript-eslint"
     // '@typescript-eslint/no-explicit-any': 'warn',
   },
 };
